@@ -176,6 +176,7 @@ main img,
  .caption h4{
    color: var(--botton);
    margin-top: 0.3rem;
+   padding-left: 0.3rem;
  }
  .caption h3{
     color: var(--dark);
