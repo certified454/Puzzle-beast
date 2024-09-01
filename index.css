@@ -332,6 +332,7 @@ footer h4{
    padding-left: 1%;
    font-family: calibri;
    font-size: 1.5em;
+   text-align: center;
    color: var(--dark);
 }
 
