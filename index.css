@@ -49,7 +49,8 @@ nav .nav,
  }
 .nav p{
    margin-left: 1.5rem;
-   color: var(--tertiary_white);
+   color: var(--black);
+   font-weight: bolder;
 }
  .nav li, 
  li a{
@@ -91,6 +92,7 @@ main{
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
+    margin-top: auto;
 }
 
 main div{
@@ -153,12 +155,18 @@ main div{
     margin-top: -5rem;
 }
 
+.container .inner h4{
+   color: var(--botton);
+   margin-top: 0.3rem;
+   padding-left: 0.3rem;
+}
+
 main img,
 .inner img{
     width: 100%;
     height: 100%;
     object-fit: contain;
-    margin-top: -7.3rem;
+    margin-top: -6.3rem;
  }
 
   .caption{
@@ -173,23 +181,19 @@ main img,
     box-shadow: -1px -0px 0px 0px rgb(35, 34, 35) ;
  }
 
- .caption h4{
-   color: var(--botton);
-   margin-top: 0.3rem;
-   padding-left: 0.3rem;
- }
+ 
  .caption h3{
     color: var(--dark);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: bolder;
     font-size: 1.1rem;
     margin-left: 0.2rem;
  }
 
  .caption p{
-    color: var(--gray);
+    color: var(--black);
     font-family: calibri;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.1rem;
     margin-top: 0rem;
     margin-left: 0.2rem;
@@ -318,7 +322,6 @@ main img,
 footer h1,
 footer h4{
    font-family: monospace;
-   font-weight: bold;
    font-size: 2.5em;
    padding-left: 45%;
    padding-top: 1%;
@@ -359,23 +362,20 @@ footer ul{
       z-index: 1000;
       width: 100%;
       height: 7vh;
-      margin-top: rem;
       overflow: hidden;
    }
    nav  .logo{
       width: 30px;
       height: 30px;
       border-radius: 50%;
-      margin-top: 1rem;
+      margin-top: 0.7rem;
    }
    nav .nav{
         display: flex;
         align-items: center;
    } 
    .nav p{
-      position: absolute;
-      margin-top: -2rem;
-      margin-left: -1.3rem;
+     display: none;
    }
    .nav li a {
       font-size: 0.8em;
@@ -393,7 +393,7 @@ footer ul{
    }
    main {
       width: 100%;
-      
+      margin-top: 7dvh;
    }
    main div {
       display: none;
@@ -404,23 +404,38 @@ footer ul{
    
    .activities{
       width: auto;
-      height: 50dvh;  
+      height: 57dvh;  
    }
    .container {
       width: 30dvh;
-      height: 45vh;
+      height: 100%;
    }
    .inner  {
       height: 100%;
       width: auto;
    }
-   .caption button{
-      margin-top: -1.4rem;
-      margin-left: 8.7rem;
-      width: 17dvw;
-      height: 3.8dvh;
-      border-radius: 3px;
+   
+   .container .inner h4{
+   color: var(--botton);
+   margin-top: 0.3rem;
+   padding-left: 0.3rem;
    }
+
+   .inner img{
+    margin-top: -5.5rem;
+   }
+
+   .caption h3{
+       margin-top: 0.4rem;
+       font-weight: bolder;
+   }
+
+   .caption p{
+    margin-top: 0.4rem;
+    font-weight: 400;
+    color: var(--black);
+   }
+
    section {
       width: 100%;
       height: 95dvh;
@@ -458,11 +473,11 @@ footer ul{
    .box h2 {
       position: absolute;
       margin-left: -0.5rem;
-      margin-top: 3rem;
+      margin-top: 2.5rem;
       font-size: 1.5em;
    }
    .clubs p {
-      margin-inline: -5.5rem;
+      margin-inline: -6rem;
    }
    .box button{
       width: 75%;
