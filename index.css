@@ -152,7 +152,6 @@ main{
    padding-left: 0.3rem;
 }
 
-main img,
 .inner img{
     width: 100%;
     height: 100%;
@@ -386,7 +385,7 @@ footer ul{
    
   main {
         with: 100%;
-        margin-top: 7dvh;
+        margin-top: 8dvh;
     }
 
    .sport_gallery {
