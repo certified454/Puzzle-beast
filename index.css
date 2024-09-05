@@ -85,27 +85,16 @@ header{
 }
 
 main{
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
     background-image: url(images/cube.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     overflow: hidden;
     position: relative;
     z-index: 1;
     margin-top: auto;
-}
-
-main div{
-    width: 19%;
-    height: auto;
-    box-shadow: -1px -0px 1px 1px var(--background) ;
-    border: none;
-    border-radius: 5px;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    padding-left: 6px;
 }
 
 .join{
@@ -396,7 +385,7 @@ footer ul{
    }
    
   main {
-        background-size: auto 100%; /* Maintain the aspect ratio */
+        background-size: auto 100%;
         height: auto;
     }
 
