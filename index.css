@@ -90,8 +90,10 @@ main{
     background-image: url(images/cube.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center center;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
     margin-top: auto;
 }
 
