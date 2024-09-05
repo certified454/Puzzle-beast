@@ -394,13 +394,12 @@ footer ul{
       margin-top: -1.6rem;
       margin-right: 0.2rem;
    }
-   main {
-      width: 100%;
-      margin-top: 7dvh;
-   }
-   main div {
-      display: none;
-   }
+   
+  main {
+        background-size: auto 100%; /* Maintain the aspect ratio */
+        height: auto;
+    }
+
    .sport_gallery {
       font-size: 1.5em;
    }
